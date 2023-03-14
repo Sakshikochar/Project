@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>body {
+        font-family: Arial, sans-serif;
+      }
+      
+      h1 {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+      
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+label {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      input[type="checkbox"] {
+        margin-right: 10px;
+      }
+      
+      ul {
+        margin-top: 20px;
+        margin-bottom: 0;
+        list-style-type: none;
+      }
+      
+      li {
+        font-size: 16px;
+        margin-bottom: 5px;}
+  </style>
+	<meta charset="UTF-8">
+	<title>AL406 Java Lab</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			color: #333;
+			background-color: #f9f9f9;
+		}
+		h1 {
+			text-align: center;
+			color: #0057a6;
+			margin-top: 50px;
+			margin-bottom: 30px;
+		}
+		label {
+			display: block;
+			margin: 10px;
+		}
+		input[type="checkbox"] {
+			margin-right: 5px;
+			transform: scale(1.5);
+			vertical-align: middle;
+		}
+		.checklist {
+			background-color: #fff;
+			border: 1px solid #ddd;
+			padding: 20px;
+			margin: 20px;
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+		}
+		.set-theory {
+			color: #c0392b;
+		}
+		.relations {
+			color: #9b59b6;
+		}
+		.graph-theory {
+			color: #3498db;
+		}
+		.linear-algebra {
+			color: #27ae60;
+		}
+		.test-of-hypothesis {
+			color: #f1c40f;
+		}
+	</style>
+</head>
+<body>
+	<h1>AL406 Java Lab</h1>
+	<div class="checklist set-theory">
+		<h2>Overview of Java</h2>
+		<label><input type="checkbox"> Installation</label>
+		<label><input type="checkbox"checked>  Compilation process</label>
+		<label><input type="checkbox">JavaKeywords</label>
+	</div>
+	<div class="checklist relations">
+		<h2> Declaring Objects</h2>
+		<label><input type="checkbox"checked> Introducing Methods</label>
+		<label><input type="checkbox"> Constructors</label>
+		<label><input type="checkbox"checked>this Keyword</label>
+		<label><input type="checkbox">GarbageCollection</label>
+		<label><input type="checkbox"checked> Overloading Methods</label>
+	</div>
+	<div class="checklist graph-theory">
+		<h2> The Applet Class</h2>
+		<label><input type="checkbox">: Applet Basics</label>
+		<label><input type="checkbox"checked> Applet Architecture</label>
+		<label><input type="checkbox"checked>Simple Applet Display Methods</label>
+		<label><input type="checkbox">The
+HTML APPLET Tag</label>
+		<label><input type="checkbox"> Improving the Banner Applet</label>
+		<label><input type="checkbox"checked> Passing Parameters to Applets</label>
+	</div>
+	<div class="checklist linear-algebra">
+		<h2> Event Handling</h2>
+		<label><input type="checkbox"checked> The Delegation Event Mode</label>
+		<label><input type="checkbox"> Event Listeners</label>
+		<label><input type="checkbox"checked>The Mouse Event Class </label>
+		<label><input type="checkbox"checked>  the driver manager
