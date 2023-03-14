@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      li {
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Apply hover styles to the list items */
+li:hover {
+  background-color: #0077B5;
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Animate the headings */
+h1, h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+      h1{
+        background-color: #0077B5;
+        padding: 40px; 
+      }
+ 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+      body {
+        background-color:  #fff; /* set the background color to light gray */
+      }
+    </style>
+    <meta charset="UTF-8">
+      <title>Study Material</title>
+  </head>
+  <body>
+    <h1>Study Material</h1>
+    <h2>Discrete Structures and Linear Algebra</h2>
+    <ul>
+      <li>Introduction to Linear Algebra, Fifth Edition by Gilbert Strang</li>
+      <li>Concrete Mathematics: A Foundation for Computer Science, Second Edition by Ronald Graham, Donald Knuth, and Oren Patashnik</li>
+      <li>Discrete Mathematics and Its Applications, Seventh Edition by Kenneth H. Rosen</li>
+    </ul>
+    <h2>Software Engineering</h2>
+    <ul>
+      <li>The Clean Coder: A Code of Conduct for Professional Programmers by Robert C. Martin</li>
+      <li>Code Complete: A Practical Handbook of Software Construction, Second Edition by Steve McConnell</li>
+      <li>The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition by Frederick P. Brooks Jr.</li>
+    </ul>
+    <h2>Analysis and Design of Algorithms</h2>
+    <ul>
+      <li>Introduction to Algorithms, Third Edition by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein</li>
+      <li>The Algorithm Design Manual, Second Edition by Steven S. Skiena</li>
+      <li>Design and Analysis of Algorithms by Sartaj Sahni</li>
+    </ul>
+    <h2>Machine Learning</h2>
+    <ul>
+      <li>The Hundred-Page Machine Learning Book by Andriy Burkov</li>
+      <li>Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, Second Edition by Aurélien Géron</li>
+      <li>Deep Learning by Yoshua Bengio, Ian Goodfellow, and Aaron Courville</li>
+    </ul>
+    <h2>Computer Organizations and Architecture</h2>
+    <ul>
+      <li>Computer Organization and Design: The Hardware/Software Interface, Fifth Edition by David A. Patterson and John L. Hennessy</li>
+      <li>Structured Computer Organization, Sixth Edition by Andrew S. Tanenbaum and Todd Austin</li>
+      <li>Computer Architecture: A Quantitative Approach, Sixth Edition by John L. Hennessy and David A. Patterson</li>
+    </ul>
+    <h2>Java Lab</h2>
+    <ul>
+      <li>Java: A Beginner's Guide, Eighth Edition by Herbert Schildt</li>
+      <li>Effective Java, Third Edition by Joshua Bloch</li>
+      <li>Head First Java, Second Edition by Kathy Sierra and Bert Bates</li>
+    </ul>
+  </body>
+</html>
