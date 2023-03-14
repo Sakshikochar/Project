@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <style>body {
+        font-family: Arial, sans-serif;
+      }
+      
+      h1 {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+      
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+label {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      input[type="checkbox"] {
+        margin-right: 10px;
+      }
+      
+      ul {
+        margin-top: 20px;
+        margin-bottom: 0;
+        list-style-type: none;
+      }
+      
+      li {
+        font-size: 16px;
+        margin-bottom: 5px;}
+  </style>
+<head>
+	<meta charset="UTF-8">
+	<title>AL404 Computer Organization& Architecture</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			color: #333;
+			background-color: #f9f9f9;
+		}
+		h1 {
+			text-align: center;
+			color: #0057a6;
+			margin-top: 50px;
+			margin-bottom: 30px;
+		}
+		label {
+			display: block;
+			margin: 10px;
+		}
+		input[type="checkbox"] {
+			margin-right: 5px;
+			transform: scale(1.5);
+			vertical-align: middle;
+		}
+		.checklist {
+			background-color: #fff;
+			border: 1px solid #ddd;
+			padding: 20px;
+			margin: 20px;
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+		}
+		.set-theory {
+			color: #c0392b;
+		}
+		.relations {
+			color: #9b59b6;
+		}
+		.graph-theory {
+			color: #3498db;
+		}
+		.linear-algebra {
+			color: #27ae60;
+		}
+		.test-of-hypothesis {
+			color: #f1c40f;
+		}
+	</style>
+</head>
+<body>
+	<h1>AL404 Computer Organization& Architecture</h1>
+	<div class="checklist set-theory">
+		<h2> Basic Structure of Computer</h2>
+		<label><input type="checkbox">Structure of Desktop Computer</label>
+		<label><input type="checkbox"checked> Instruction
+Format</label>
+		<label><input type="checkbox">ALU</label>
+	</div>
+	<div class="checklist relations">
+		<h2>Computer Arithmetic</h2>
+		<label><input type="checkbox"checked> Addition and Subtraction</label>
+		<label><input type="checkbox"> Tools Compliment Representation</label>
+		<label><input type="checkbox"checked>Multiplication and division</label>
+		<label><input type="checkbox"> Booths Algorithm</label>
+		<label><input type="checkbox"checked> Floating Point Arithmetic Operation</label>
+	</div>
+	<div class="checklist graph-theory">
+		<h2> I/O Organization</h2>
+		<label><input type="checkbox">I/O Interface</label>
+		<label><input type="checkbox"checked> PCI Bus</label>
+		<label><input type="checkbox"checked>SCSI Bus</label>
+		<label><input type="checkbox">USB</label>
+		<label><input type="checkbox"> Data Transfer</label>
+		<label><input type="checkbox"checked> Direct Memory Access(DMA)</label>
+	</div>
+	<div class="checklist linear-algebra">
+		<h2> Memory Organization</h2>
+		<label><input type="checkbox"checked> Memory Organization</label>
+		<label><input type="checkbox"> Cache Structure and Design</label>
+		<label><input type="checkbox"checked>Mapping Scheme</label>
+		<label><input type="checkbox"checked> Virtual Memory
