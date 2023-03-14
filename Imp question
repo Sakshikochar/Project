@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    /* Style the container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the headin/* Style the container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the headings */
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 50px;
+  color: #333333;
+  text-shadow: 2px 2px 0 #ffffff;
+}
+
+h2 {
+  font-size: 2em;
+  color: #666666;
+  text-shadow: 2px 2px 0 #ffffff;
+  margin-top: 50px;
+}
+
+/* Style the questions and answers */
+.question {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.question p {
+  font-size: 1.5em;
+  padding: 20px;
+  margin: 0;
+}
+
+.answer {
+  font-size: 1.2em;
+  padding: 20px;
+  background-color: #f5f5f5;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.question:hover .answer {
+  transform: translateX(-100%);
+}
+
+/* Add some background details and art */
+.subject:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.subject:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.question:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  background-color: #666666;
+}
+
+/* Add some animations */
+h1 {
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.question {
+  animation-name: slide;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+gs */
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 50px;
+  color: #333333;
+  text-shadow: 2px 2px 0 #ffffff;
+}
+
+h2 {
+  font-size: 2em;
+  color: #666666;
+  text-shadow: 2px 2px 0 #ffffff;
+  margin-top: 50px;
+}
+
+/* Style the questions and answers */
+.question {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.question p {
+  font-size: 1.5em;
+  padding: 20px;
+  margin: 0;
+}
+
+.answer {
+  font-size: 1.2em;
+  padding: 20px;
+  background-color: #0077B5;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.question:hover .answer {
+  transform: translateX(-95%);
+}
+
+/* Add some background details and art */
+.subject:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.subject:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.question:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  background-color: #666666;
+}
+
+/* Add some animations */
+h1 {
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.question {
+  animation-name: slide;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+  </style>
+  <head>
+    <meta charset="UTF-8">
+    <title>Question Bank</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Question Bank</h1>
+      <div class="subject">
+        <h2>Discrete Structures and Linear Algebra</h2>
+        <div class="questions">
+          <div class="question">
+            <p>What is a matrix?</p>
+            <div class="answer">A matrix is a rectangular array of numbers, symbols, or expressions arranged in rows and columns.</div>
+          </div>
+          <div class="question">
+            <p>What is a vector?</p>
+            <div class="answer">A vector is a quantity that has both magnitude and direction.</div>
+          </div>
+        
+        </div>
+      </div>
+      <div class="subject">
+        <h2>Software Engineering</h2>
+        <div class="questions">
+          <div class="question">
+            <p>What is software engineering?</p>
+            <div class="answer">Software engineering is the process of designing, creating, testing, and maintaining software.</div>
+          </div>
+          <div class="question">
+            <p>What is agile development?</p>
+            <div class="answer">Agile development is an iterative and incremental approach to software development that emphasizes flexibility and collaboration.</div>
+          </div>
+         
+        </div>
+      </div>
+      <div class="subject">
+        <h2>Computer Organization and Architecture</h2>
+        <div class="questions">
+          <div class="question">
+            <p>What is computer organization and architecture?</p>
+            <div class="answer">Computer organization and architecture is the study of the physical components and internal workings of computer systems, including the design of processors, memory systems, and input/output devices.</div>
+          </div>
+          <div class="question">
+            <p>What is the difference between RISC and CISC processors?</p>
+            <div class="answer">RISC (Reduced Instruction Set Computing) and CISC (Complex Instruction Set Computing) are two different approaches to processor design. RISC processors have a simpler instruction set, with each instruction performing a basic operation. CISC processors, on the other hand, have a more complex instruction set, with each instruction capable of performing multiple operations. In general, RISC processors are faster and more power-efficient, while CISC processors are more flexible and can handle more complex tasks.</div>
+          </div>
+         <div class="subject">
+        <h2>Machine Learning</h2>
+        <div class="questions">
+          <div class="question">
+            <p>What is deep learning?</p>
+            <div class="answer">Deep learning is a type of machine learning that uses neural networks with multiple layers to learn hierarchical representations of data.</div>
+          </div>
+          <div class="question">
+            <p>What is transfer learning in machine learning?</p>
+            <div class="answer">Transfer learning is a technique in machine learning where a model trained on one task is re-purposed for a different but related task, often with fewer training examples required.</div>
+            </div>
+             <div class="subject">
+        <h2>Analysis and design of algorithm</h2>
+        <div class="questions">
+          <div class="question">
+            <p>What is dynamic programming?</p>
+            <div class="answer">Dynamic programming is a technique for solving optimization problems by breaking them down into smaller subproblems and storing the solutions to these subproblems to avoid redundant calculations.</div>
+          </div>
+          <div class="question">
+            <p>What is the difference between Greedy and Dynamic programming algorithms?</p>
+            <div class="answer">Greedy algorithms make locally optimal choices at each step to find a globally optimal solution, whereas dynamic programming algorithms solve problems by breaking them down into smaller subproblems and storing the solutions to these subproblems to avoid redundant calculations.
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
