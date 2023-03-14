@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+ <style>
+   body {
+        font-family: Arial, sans-serif;
+      }
+      
+      h1 {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+      
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+label {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      input[type="checkbox"] {
+        margin-right: 10px;
+      }
+      
+      ul {
+        margin-top: 20px;
+        margin-bottom: 0;
+        list-style-type: none;
+      }
+      
+      li {
+        font-size: 16px;
+        margin-bottom: 5px;}
+  </style>
+<head>
+	<meta charset="UTF-8">
+	<title>AL402 Analysis &Design of Algorithms</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			color: #333;
+			background-color: #f9f9f9;
+		}
+		h1 {
+			text-align: center;
+			color: #0057a6;
+			margin-top: 50px;
+			margin-bottom: 30px;
+		}
+		label {
+			display: block;
+			margin: 10px;
+		}
+		input[type="checkbox"] {
+			margin-right: 5px;
+			transform: scale(1.5);
+			vertical-align: middle;
+		}
+		.checklist {
+			background-color: #fff;
+			border: 1px solid #ddd;
+			padding: 20px;
+			margin: 20px;
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+		}
+		.Algorithms {
+			color: #c0392b;
+		}
+		.Greedy-Strategy{
+			color: #9b59b6;
+		}
+		.Dynamic-programming {
+			color: #3498db;
+		}
+		.backtracking {
+			color: #27ae60;
+		}
+		.advanced-algorithms {
+			color: #f1c40f;
+		}
+	</style>
+</head>
+<body>
+	<h1>AL402 Analysis &Design of Algorithms</h1>
+	<div class="checklist set-theory">
+		<h2>Algorithms</h2>
+		<label><input type="checkbox"checked> Definition of Algorithms</label>
+		<label><input type="checkbox"checked> Time Complexity</label>
+		<label><input type="checkbox"> Loop Optimization</label>
+	</div>
+	<div class="checklist relations">
+		<h2>Greedy Strategy</h2>
+		<label><input type="checkbox"checked> Definition</label>
+		<label><input type="checkbox"> Types of Strategies</label>
+		<label><input type="checkbox"checked> Single source shortest path</label>
+		<label><input type="checkbox"checked> Correctness proof of Greedy algorithms</label>
+		<label><input type="checkbox">  job sequencing with deadlines</label>
+		<label><input type="checkbox"> Huffman
+coding</label>
+		<label><input type="checkbox"checked>  minimum spanning trees,</label>
+	</div>
+	<div class="checklist graph-theory">
+		<h2>Dynamic Programming</h2>
+		<label><input type="checkbox"> Concept of dynamic programming</label>
+		<label><input type="checkbox"checked> problems based on this approach such as 0/1 knapsack</label>
+		<label><input type="checkbox"checked> reliability design</label>
+		<label><input type="checkbox">  Floyd-Warshall algorithm</label>
+	</div>
+	<div class="checklist linear-algebra">
+		<h2>Backtracking</h2>
+		<label><input type="checkbox"> Backtracking concept and its examples like 8 queen’s problem</label>
+		<label><input type="checkbox"checked>Graph
+colouring problem </label>
+		<label><input type="checkbox"checked> Meaning of lower bound theory</label>
+	
