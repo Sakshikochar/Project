@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <style>body {
+        font-family: Arial, sans-serif;
+      }
+      
+      h1 {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+      
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+label {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      input[type="checkbox"] {
+        margin-right: 10px;
+      }
+      
+      ul {
+        margin-top: 20px;
+        margin-bottom: 0;
+        list-style-type: none;
+      }
+      
+      li {
+        font-size: 16px;
+        margin-bottom: 5px;}
+  </style>
+<head>
+	<meta charset="UTF-8">
+	<title>AL403 Software Engineering</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			color: #333;
+			background-color: #f9f9f9;
+		}
+		h1 {
+			text-align: center;
+			color: #0057a6;
+			margin-top: 50px;
+			margin-bottom: 30px;
+		}
+		label {
+			display: block;
+			margin: 10px;
+		}
+		input[type="checkbox"] {
+			margin-right: 5px;
+			transform: scale(1.5);
+			vertical-align: middle;
+		}
+		.checklist {
+			background-color: #fff;
+			border: 1px solid #ddd;
+			padding: 20px;
+			margin: 20px;
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+		}
+		.set-theory {
+			color: #c0392b;
+		}
+		.relations {
+			color: #9b59b6;
+		}
+		.graph-theory {
+			color: #3498db;
+		}
+		.linear-algebra {
+			color: #27ae60;
+		}
+		.test-of-hypothesis {
+			color: #f1c40f;
+		}
+	</style>
+</head>
+<body>
+	<h1>AL403 Software Engineering</h1>
+	<div class="checklist set-theory">
+		<h2> The Software Product and Software Process</h2>
+		<label><input type="checkbox">Software Product and Process Characteristics</label>
+		<label><input type="checkbox">  Software Process Models</label>
+		<label><input type="checkbox"checked> RUP and Agile processes</label>
+	</div>
+	<div class="checklist relations">
+		<h2>Requirement Elicitation, Analysis, and Specification</h2>
+		<label><input type="checkbox"> Functional and Non-functional requirements</label>
+		<label><input type="checkbox"> Requirement Source</label>
+		<label><input type="checkbox"checked> Use case
+Modeling</label>
+		<label><input type="checkbox"> System and Software Requirement Specification</label>
+		<label><input type="checkbox"checked> Requirement Validation</label>
+	</div>
+	<div class="checklist graph-theory">
+		<h2> Software Design</h2>
+		<label><input type="checkbox"checked> The Software Design Process</label>
+		<label><input type="checkbox"> Design Concepts and Principles</label>
+		<label><input type="checkbox">Software Modeling and UML</label>
+		<label><input type="checkbox"checked> Architectural Design</label>
+		<label><input type="checkbox"checked> Architectural Views </label>
+		<label><input type="checkbox">  User Interface Design</label>
+	</div>
+	<div class="checklist linear-algebra">
+		<h2>Software Analysis and Testing</h2>
+		<label><input type="checkbox"> Software Static and Dynamic analysis</label>
+		<label><input type="checkbox"checked> Code inspections</label>
+		<label><input type="checkbox">Software Testing</label>
+		<label><input type="checkbox"> Test Oracles
