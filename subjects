@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSE-Artificial Intelligence and Machine Learning IV-Semester</title>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+
+		.btn {
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			margin: 10px;
+			font-size: 18px;
+			cursor: pointer;
+			background-color: #2196F3;
+			color: white;
+			transition: all 0.3s ease;
+		}
+
+		.btn:hover {
+			background-color: #0b7dda;
+		}
+    /* Global styles */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+}
+
+.btn {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	margin: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	background-color: #2196F3;
+	color: white;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #0b7dda;
+}
+
+/* Page-specific styles */
+h1 {
+	margin-top: 50px;
+	font-size: 36px;
+	color: #333;
+}
+
+.container {
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 50px;
+	border-radius: 10px;
+}
+
+.btn {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #0b7dda;
+	transform: translateY(-2px);
+	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+	</style>
+</head>
+<body>
+	<h1 style="text-align:center;">CSE-Artificial Intelligence and Machine Learning/ Artificial Intelligence and Machine Learning IV-Semester</h1>
+	<div class="container">
+		<a href="file:///C:/Users/Adityavardhan%20Jain/Desktop/discreteSyllabus.html">
+			 <button class="btn" onclick="location.href='discrete_structure.html'">Introduction to Discrete Structure & Linear Algebra</button>
+		</a>
+		<a href="file:///C:/Users/Adityavardhan%20Jain/Desktop/ADASyllabus.html">
+			<button class="btn" onclick="location.href='algorithms.html'">Analysis & Design of Algorithms</button>
+		</a>
+		<a href="file:///C:/Users/Adityavardhan%20Jain/Desktop/se.html">
+		<button class="btn" onclick="location.href='software_engineering.html'">Software Engineering</button>
+		</a>
+<a href="file:///C:/Users/Adityavardhan%20Jain/Desktop/coa.html ">		
+<button class="btn" onclick="location.href='computer_organization.html'">Computer Organization & Architecture</button>
+</a>		
+<a href=" file:///C:/Users/Adityavardhan%20Jain/Desktop/machine%20learning.html">
+<button class="btn" onclick="location.href='machine_learning.html'">Machine Learning</button>
+</a>
+<a href="file:///C:/Users/Adityavardhan%20Jain/Desktop/java%20lab%20.html">		
+<button class="btn" onclick="location.href='java_lab.html'">Java Lab</button>
+</a>	
+</div>
+</body>
+</html>
