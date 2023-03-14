@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    /* Add some basic styles to the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Style the unordered list */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style each list item */
+li {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+}
+.li {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in, transform 0.5s ease-out;
+}
+
+.li.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Add some styles to the teacher name and date */
+li strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+li em {
+  font-size: 0.8em;
+  color: #999;
+}
+
+/* Add hover effects to the list items */
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Add some styles to the generated date at the bottom of the page */
+p {
+  text-align: center;
+  font-size: 0.8em;
+  color: #999;
+  margin-top: 50px;
+}
+div {
+  font-family: Arial, sans-serif ;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  margin: 10px -10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+
+  </style>
+<head>
+	<title>Teacher's Remarks</title>
+</head>
+<body>
+	<h1>Teacher's Remarks</h1>
+<ul>
+	<li><strong>Mr. Sharma:</strong> "Aditya has shown great progress in his coding skills." (March 3, 2022)
+	<div class>
+  <form>
+    <label >Leave a comment:</label><br>
+    <input type="text" id="comment" name="comment"><br>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+</li>
+	<li><strong>Ms. Madhuri:</strong> "Adityavardhan's problem-solving abilities are outstanding." (June 7, 2022)
+		<div class>
+  <form>
+    <label >Leave a comment:</label><br>
+    <input type="text" id="comment" name="comment"><br>
+    <button type="submit">Submit</button>
+  </form>
+</div></li>
+	<li><strong>Mr. Patel:</strong> "Aditya consistently goes above and beyond in his assignments." (September 15, 2022)
+		<div class>
+  <form>
+    <label >Leave a comment:</label><br>
+    <input type="text" id="comment" name="comment"><br>
+    <button type="submit">Submit</button>
+  </form>
+</div></li>
+	<li><strong>Ms. Mishra:</strong> "Adi has a natural talent for algorithm design." (October 27, 2022)
+		<div class>
+  <form>
+    <label >Leave a comment:</label><br>
+    <input type="text" id="comment" name="comment"><br>
+    <button type="submit">Submit</button>
+  </form>
+</div></li>
+	<li><strong>Mr. Yadav:</strong> "Aditya's creativity in his projects is impressive." (December 9, 2022)
+		<div class>
+  <form>
+    <label >Leave a comment:</label><br>
+    <input type="text" id="comment" name="comment"><br>
+    <button type="submit">Submit</button>
+  </form>
+</div></li>
+	<li><strong>Ms. Gajendra:</strong> "Aditya is a quick learner and always eager to try new things." (January 12, 2023)
+		<div class>
+  <form>
+    <label >Leave a comment:</label><br>
+    <input type="text" id="comment" name="comment"><br>
+    <button type="submit">Submit</button>
+  </form>
+</div></li>
+	<li><strong>Mr. Armaan:</strong> "Aditya consistently demonstrates strong leadership skills in group projects." (February 4, 2023)
+		<div class>
+  <form>
+    <label >Leave a comment:</label><br>
+    <input type="text" id="comment" name="comment"><br>
+    <button type="submit">Submit</button>
+  </form>
+</div></li>
+	<li><strong>Ms. Nandini:</strong> "Adi has a strong foundation in programming concepts." (March 1, 2023)
+		<div class>
+  <form>
+    <label >Leave a comment:</label><br>
+    <input type="text" id="comment" name="comment"><br>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+</li>
+	<li><strong>Mr. Dutt:</strong> "Adityavardhan's attention to detail in his code is exemplary." (April 17, 2023)
+		<div class>
+  <form>
+    <label >Leave a comment:</label><br>
+    <input type="text" id="comment" name="comment"><br>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+</li>
+	<li><strong>Ms. Usha:</strong> "Aditya's ability to debug complex code is impressive." (May 23, 2023)
+		<div class>
+  <form>
+    <label >Leave a comment:</label><br>
+    <input type="text" id="comment" name="comment"><br>
+    <button type="submit">Submit</button>
+  </form>
+</div></li>
+</ul>
+
+<p><em></em></p>
+</body>
+</html> 
